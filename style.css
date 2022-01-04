@@ -1,0 +1,114 @@
+
+#Rectangle1{
+position: absolute;
+width: 501px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+background: #045D8B;
+text-align: center;
+}
+
+#Ajou{
+    position: absolute;
+    width: 161px;
+    height: 48px;
+    left: 183px;
+    top: 6px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#Login{
+    position: absolute;
+    width: 45px;
+    height: 21px;
+    left: 448px;
+    top: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+#board{
+    position: absolute;
+    width: 86px;
+    height: 29px;
+    left: 75px;
+    top: 101px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#enroll{
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    left: 370px;
+    top: 101px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Rectangle4{
+    position: absolute;
+    width: 350px;
+    height: 359px;
+    left: 75px;
+    top: 146px;
+
+    background: #FFFFFF;
+    border: 1px solid #045D8B;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Rectangle14{
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    left: 370px;
+    top: 101px;
+
+    background: #FFFFFF;
+    border: 1px solid #045D8B;
+    box-sizing: border-box;
+}
