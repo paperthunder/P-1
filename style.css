@@ -112,3 +112,223 @@ text-align: center;
     border: 1px solid #045D8B;
     box-sizing: border-box;
 }
+
+#line1{
+    
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 75px;
+    top: 205px;
+    
+    border: 1px solid #045D8B;
+
+}
+
+#line2{position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 75px;
+    top: 265px;
+    
+    border: 1px solid #045D8B;
+    
+}
+
+#line3{
+    position: absolute;
+width: 350px;
+height: 0px;
+left: 75px;
+top: 325px;
+
+border: 1px solid #045D8B;
+}
+
+#line4{
+    position: absolute;
+width: 350px;
+height: 0px;
+left: 75px;
+top: 385px;
+
+border: 1px solid #045D8B;
+}
+
+#line5 {position: absolute;
+width: 350px;
+height: 0px;
+left: 75px;
+top: 445px;
+
+border: 1px solid #045D8B;
+}
+
+#Rectangle5{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 70px;
+top: 533px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+#Rectangle6{
+    position: absolute;
+    width: 21px;
+    height: 20px;
+    left: 113px;
+    top: 533px;
+    
+    background: #FFFFFF;
+    border: 1px solid #045D8B;
+    box-sizing: border-box;
+}
+
+#Rectangle7{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 152px;
+top: 533px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+#Rectangle8{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 195px;
+top: 533px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+#Rectangle9{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 238px;
+top: 533px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+#Rectangle10{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 281px;
+top: 533px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+#Rectangle11{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 324px;
+top: 533px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+#Rectangle12{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 367px;
+top: 531px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+#Rectangle13{
+    position: absolute;
+width: 21px;
+height: 20px;
+left: 410px;
+top: 531px;
+
+background: #FFFFFF;
+border: 1px solid #045D8B;
+box-sizing: border-box;
+}
+
+.icon{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px 3px;
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 17px;
+    top: 18px;
+}
+
+#top{
+    position: static;
+left: 12.5%;
+right: 12.5%;
+top: 25%;
+bottom: 75%;
+
+border: 2px solid #FFFFFF;
+}
+
+.vector{
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 6px 0px;
+}
+
+#middle{
+    position: static;
+left: 12.5%;
+right: 12.5%;
+top: 50%;
+bottom: 50%;
+
+border: 2px solid #FFFFFF;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 6px 0px;
+}
+
+#bottom{
+    position: static;
+left: 12.5%;
+right: 12.5%;
+top: 75%;
+bottom: 25%;
+
+border: 2px solid #FFFFFF;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 6px 0px;
+}
