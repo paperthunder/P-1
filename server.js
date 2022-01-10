@@ -1,13 +1,11 @@
-var express = require('express');
-var app = express();
-var router = require('./router/main')(app);
+const express = require('express');
+const path = require("path");
+const app = express();
 
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
-app.engine('html', require('ejs').renderFile);
+app.use("/static", express.static(path.resolve(__dirname, "frontend", "static")));
 
-var server = app.listen(3000, function(){
-    console.log("Express server has started on port 3000")
-});
+app.get("/*", (req,res) => {
+    res.sendFile(path.resolve("frontend", "mainpage.html"))
+})
 
-app.use(express.static('views'));
+app.listen(process.env.PORT || 8080, () => console.log("Server running...."));
