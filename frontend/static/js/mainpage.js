@@ -1,6 +1,5 @@
 const { route } = require("express/lib/application");
 
-import Dashboard from "./views/Dashboard.js";
 
 const navigateTo = url => {
   history.pushState(null, null, url);
