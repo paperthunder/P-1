@@ -7,4 +7,4 @@ const root = alpa.querySelector("#root");
 const top = alpa.querySelector("#top");
 
 head(top);
-main(root,"writePage");
+main(root);
